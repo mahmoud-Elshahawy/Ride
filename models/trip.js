@@ -52,5 +52,5 @@ const tripSchema = new mongoose.Schema({
 
 });
 
-var trip= mongoose.model('trip',tripSchema);
+var trip= mongoose.model('trip',tripSchema,'trip');
 module.exports = trip;

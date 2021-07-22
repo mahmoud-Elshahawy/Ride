@@ -5,7 +5,7 @@ var bodyParser=require("body-parser");
 var param = require("./params/param");
 mongoose.connect(param.connection,{useUnifiedTopology:true, useNewUrlParser:true, useCreateIndex:true});
 mongoose.set('useFindAndModify', false);
-app.set("port",process.env.PORT || 3000);
+app.set("port",process.env.PORT || 3001);
 app.use(bodyParser.json());
 app.use("/",require("./routes/api"));
 app.listen(app.get("port"),function(){

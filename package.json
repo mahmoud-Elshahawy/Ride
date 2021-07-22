@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "nodemon app.js"
   },
   "author": "Mahmoud-Elshahawy",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "mongoose": "^5.13.2",
     "passport": "^0.4.1",
     "path": "^0.12.7",
-    "rand-token": "^1.0.1"
+    "rand-token": "^1.0.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
